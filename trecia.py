@@ -35,8 +35,17 @@ def g(m, x):
 def fx(x, koef):
     y=0
     koef = koef.flatten()
+    expr=""
     for i in range(len(koef)):
         y+= koef[i]*(x**i)
+        if i < len(koef)-1:
+            temp="{koef:e}*x^{deg:d}".format(koef=koef[i], deg=i)
+            expr+=temp+"+"
+        else:
+            temp="{koef:e}*x^{deg:d}".format(koef=koef[i], deg=i)
+            expr+=temp
+    print("\n%d-os eilės daugianaris"%(len(koef)-1))
+    print(expr)
     return y
 
 years= [data[i]['Year'] for i in range(len(data))]

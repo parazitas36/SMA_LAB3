@@ -69,7 +69,7 @@ for j in range(len(x)):
     Y_NET.append(fx(x[j])-y)
     YC_NET.append(fx(x[j])-yc)
 
-ciobysevas = False
+ciobysevas = True
 
 if ciobysevas:
     fja = plot.plot(x, fx(x)) # duota f-ja
