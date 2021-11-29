@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SMA_LAB3", "SMA_LAB3.pyproj", "{5450BE87-62A5-40EE-8682-121AFE7CB1E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5450BE87-62A5-40EE-8682-121AFE7CB1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5450BE87-62A5-40EE-8682-121AFE7CB1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {043867CE-8D33-44C4-9AB5-601FC465E94B}
+	EndGlobalSection
+EndGlobal
